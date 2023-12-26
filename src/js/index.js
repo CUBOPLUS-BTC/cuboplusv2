@@ -131,8 +131,6 @@ const setElements = async (content) => {
     document.getElementById("mentions-badge").innerHTML = content.mentionstitles[0];
     document.getElementById("mentions-title").innerHTML = content.mentionstitles[1];
     document.getElementById("mentions-legend").innerHTML = content.mentionstitles[2];
-    document.getElementById("contact-title").innerHTML = content.contact[0];
-    document.getElementById("contact-description").innerHTML = content.contact[1];
 
     setTestimonials(content.testimonials);
     setMentions(content.mentions);
