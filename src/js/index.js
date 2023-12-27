@@ -61,16 +61,15 @@ const setMentions = (mentions) => {
                         <div class="relative group">
                             <div
                                 class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-orange-700 to-orange-600 dark:from-blue-600 dark:to-cyan-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                            </div><a href="${m.href}"
+                            </div><a target="_blank" href="${m.href}"
                                 class="cursor-pointer">
                                 <div
                                     class="relative p-6 space-y-6 leading-none rounded-lg bg-white ring-white dark:bg-slate-800 ring-1 dark:ring-gray-900/5">
                                     <div class="flex items-center space-x-4"><img src="${m.img}"
                                             class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Kanye West">
                                         <div>
-                                            <h3 class="text-lg font-semibold  text-blue-800 dark:text-white"><i
-                                                    class="fa-brands fa-twitter"></i> ${m.name}</h3>
-                                            <p class="text-gray-500 text-md">@jimmysong</p>
+                                            <h3 class="text-lg font-semibold text-blue-800 dark:text-white flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="mr-1" fill="currentColor" width="18" height="18" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg> ${m.name}</h3>
+                                            <p class="text-gray-500 text-md">${m.handle}</p>
                                             <p class="text-gray-500 text-md mt-2">${m.role}</p>
                                         </div>
                                     </div>

@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "secret": "en-cuboplus",
   "layout": {
     "navbar": ["About us", "Program 2023", "Sponsors"],
@@ -63,7 +63,7 @@
         "content": "Being part of Cubo+ taught me how bad the world is, but it also taught me what can be fixed with Bitcoin"
       },
       {
-        "img": "img/students/photo_5057715902967032916_y.jpg",
+        "img": "img/students/rodrigoB.jpeg",
         "name": "Rodrigo Bonilla",
         "role": "Frontend Developer",
         "content": "Cubo+ changed my perception about El Salvador, It was a challenge that I would repeat"
