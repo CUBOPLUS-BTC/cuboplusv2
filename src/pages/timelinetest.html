@@ -23,7 +23,6 @@
         })(window, document, "clarity", "script", "lc3stbh5wt");
     </script>
 
-    <link rel="stylesheet" href="timeline.css">
     <script>
         if (
             localStorage.getItem("color-theme") === "dark" ||
@@ -67,32 +66,14 @@
             }
 
         }
-
-
-        @keyframes scale-up {
-            to {
-                scale: 1.5;
-            }
-        }
-
-        @keyframes fade-away {
-            to {
-                opacity: 0;
-            }
-        }
-
     </style>
-
+    <link rel="stylesheet" href="timeline.css">
 </head>
 
-
-
-<body class="bg-[#1e293b] font-[Poppins] min-h-screen bg-white selection:bg-primary/10 selection:text-primary dark:bg-gray-900">
+<body class="font-[Poppins] min-h-screen bg-white selection:bg-primary/10 selection:text-primary dark:bg-gray-900">
     <header>
         <nav id="navbar"
             class="shadow-lg fixed inset-x-0 z-20 w-full border-b border-gray-100 bg-white/80 backdrop-blur dark:border-gray-700/30 dark:bg-gray-900/80">
-            <!--Scroll bar-->
-            <div class="scroll-tracker"></div>
             <div class="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
                 <div class="relative flex flex-wrap items-center justify-between gap-6 lg:gap-0 lg:py-4">
                     <div class="relative z-20 flex w-full justify-between md:px-0 lg:w-max">
@@ -341,44 +322,27 @@
         </div>
     </section>
 
-
     <main>
-        <section class="overflow-x-hidden pt-24">
-            <section class="relative flex flex-col min-h-screen bg-slate-800 text-white">
-                <div class="hero">
+        <section class="overflow-x-hidden">
+            <section class="relative flex flex-col min-h-screen sm:min-h-min bg-white dark:bg-gray-900 text-white">
+
+                <div class="heros">
                     <img src="../img/el-salvador-114022.jpg" alt="Background Image"
                         class="absolute inset-0 w-full h-full object-cover opacity-30 z-0">
                 </div>
-
                 <div class="relative flex-1 flex items-center z-10">
-                    <div class="text-center mx-auto">
-                        <h1 class="text-6xl text-white font-semibold animate-fade-in hover:scale-100">Welcome to the
-                        </h1>
-                        <p class="font-light text-3xl mt-5 animate-fade-in">CUBO+ Journey</p>
+                    <div class="hero text-center mx-auto">
+                        <h1 class="font-light text-3xl text-blue-500 mt-5 animate-fade-in">This is the</h1>
+                        <p class="text-6xl text-white  font-semibold animate-fade-in hover:scale-100">CUBO+ Journey</p>
                     </div>
                 </div>
+
             </section>
         </section>
+
     </main>
 
-    <section class="overflow-x-hidden ">
-        <div class="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
-            <div class="z-10">
-                <h1 id="video-title"
-                    class="relative text-center text-4xl font-bold text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
-                    <span class="relative">
-                        <span
-                            class="relative bg-gradient-to-r from-orange-500 to-yellow-400 bg-clip-text px-2 text-transparent dark:from-blue-500 dark:to-cyan-500">Proof
-                            of work</span>
-                    </span>
-                    is freedom
-                </h1>
-                <p id="video-legend"
-                    class="mx-auto mt-6 text-center text-gray-700 dark:text-gray-400 md:w-2/3 lg:w-1/2">Cuboplus shows
-                    to the world how proof of works leads to excellency and freedom for El Salvador and its students</p>
-            </div>
-        </div>
-    </section>
+
     <footer class="bg-white dark:bg-gray-900">
         <div class="relative mx-auto px-6 md:max-w-full my-6 md:px-12 lg:max-w-6xl xl:px-0">
             <div class="md:flex md:justify-between">

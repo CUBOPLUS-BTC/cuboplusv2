@@ -1,0 +1,62 @@
+.scroll-tracker {
+    height: 0.5rem;
+    background-color: red;
+    position: sticky;
+
+    animation: progress-grow auto linear;
+    animation-timeline: scroll(root block);
+}
+
+
+@keyframes progress-grow {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+
+@keyframes scale-up {
+    to {
+        scale: 1.5;
+    }
+}
+
+@keyframes fade-away {
+    to {
+        opacity: 0;
+    }
+}
+
+
+section {
+	view-timeline: scroll(root block);
+}
+
+.heros img {
+    animation:
+    scale-up both ease-in-out,
+    fade-away both linear;
+animation-timeline: scroll(root block);
+animation-range:
+    exit 0% exit 100%,
+    exit 50% exit 90%;	
+}
+.hero h1 {
+	animation: fade-away both linear;
+	animation-timeline: scroll(root block);
+	animation-range: exit 20% exit 90%;
+}
+
+.hero p {
+	animation:
+		scale-up both ease-in-out,
+		fade-away both linear;
+	animation-timeline: scroll(root block);
+	animation-range:
+		exit 0% exit 100%,
+		exit 50% exit 90%;	
+}
