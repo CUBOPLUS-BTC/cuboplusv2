@@ -66,6 +66,337 @@
             }
 
         }
+
+        .Container {
+  width: 1160px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.Main {
+  padding: 300px 0;
+}
+
+.TopTitle {
+  padding: 0 0 30px;
+  text-align: center;
+}
+
+.FirstTitle {
+  font-size: 40px;
+  color: #fff;
+}
+
+.secTitle {
+  color: #ffeb3b;
+  font-size: 60px;
+}
+
+.ag-timeline_item {
+  margin: 0 0 50px;
+  position: relative;
+  overflow: hidden; /* Para evitar que el contenido sobresalga */
+}
+
+.ag-timeline_item:nth-child(2n) {
+  text-align: right;
+}
+
+.ag-timeline {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ag-timeline_line {
+  width: 8px;
+  background-color: #393935;
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  bottom: 0;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+
+.ag-timeline_line-progress {
+  width: 100%;
+  height: 20%;
+  background-color: #03a9f4;
+}
+
+.ag-timeline-card_box {
+  padding: 0 0 20px 50%;
+}
+
+.ag-timeline_item:nth-child(2n) .ag-timeline-card_box {
+  padding: 0 50% 20px 0;
+}
+
+.ag-timeline-card_point-box {
+  display: inline-block;
+  margin: 0 14px 0 -28px;
+}
+
+.ag-timeline_item:nth-child(2n) .ag-timeline-card_point-box {
+  margin: 0 -28px 0 14px;
+}
+
+.ag-timeline-card_point {
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+  border: 3px solid #03a9f4;
+  background-color: #1d1d1b;
+  text-align: center;
+  font-family: 'ESL Legend', sans-serif;
+  font-size: 20px;
+  color: #FFF;
+  border-radius: 50%;
+}
+
+.js-ag-active .ag-timeline-card_point {
+  color: #1d1d1b;
+  background-color: #03a9f4;
+}
+
+.ag-timeline-card_meta-box {
+  display: inline-block;
+}
+
+.ag-timeline-card_meta {
+  margin: 10px 0 0;
+  font-family: 'ESL Legend', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #03a9f4;
+}
+
+.ag-timeline-card_item {
+  display: inline-block;
+  width: 36%; /* Reduce la anchura para crear espacio para el texto y las imágenes */
+  margin: -77px 0 0;
+  background-color: #03a9f4;
+  opacity: 0;
+  border-radius: 6px;
+  box-shadow: 0 0 0 0 rgba(0,0,0,.5);
+  transition: transform .5s, opacity .5s;
+  position: relative;
+  overflow: hidden; /* Evita que el contenido sobresalga */
+}
+
+.ag-timeline_item:nth-child(2n+1) .ag-timeline-card_item {
+  transform: translateX(-200%);
+}
+
+.ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
+  transform: translateX(200%);
+}
+
+.js-ag-active.ag-timeline_item:nth-child(2n+1) .ag-timeline-card_item,
+.js-ag-active.ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.ag-timeline-card_text-box {
+  display: block;
+  width: 100%;
+  margin: 20px 0 0;
+  padding: 10px;
+  background-color: #03a9f4;
+  opacity: 0;
+  border-radius: 6px;
+  box-shadow: 0 0 0 0 rgba(0,0,0,.5);
+  transition: transform .5s, opacity .5s;
+  position: relative;
+  overflow: hidden; /* Evita que el contenido sobresalga */
+}
+
+.ag-timeline_item:nth-child(2n+1) .ag-timeline-card_text-box {
+  transform: translateX(-200%);
+}
+
+.ag-timeline_item:nth-child(2n) .ag-timeline-card_text-box {
+  transform: translateX(200%);
+}
+
+.js-ag-active.ag-timeline_item:nth-child(2n+1) .ag-timeline-card_text-box,
+.js-ag-active.ag-timeline_item:nth-child(2n) .ag-timeline-card_text-box {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.ag-timeline-card_title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.ag-timeline-card_date {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffeb3b;
+}
+
+.ag-timeline-card_text {
+  padding: 20px;
+  color: #fff;
+  width: 100%;
+}
+
+.ag-timeline-card_arrow {
+  height: 18px;
+  width: 18px;
+  margin-top: 20px;
+  background-color: #03a9f4;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: rotate(45deg);
+}
+
+.ag-timeline_item:nth-child(2n+1) .ag-timeline-card_arrow {
+  margin-left: calc(-18px / 2);
+  margin-right: calc(-18px / 2);
+}
+
+.ag-timeline_item:nth-child(2n) .ag-timeline-card_arrow {
+  margin-left: -10px;
+  right: auto;
+  left: 0;
+}
+
+.ag-timeline-card_img {
+  width: 100%;
+  height: auto;
+  max-height: 240px; /* Controla la altura máxima */
+  border: 1px solid #03a9f4;
+  object-fit: cover;
+}
+
+/*--- Responsive Code ---*/
+@media only screen and (max-width: 979px) {
+  .ag-timeline_line {
+    left: 30px;
+  }
+
+  .ag-timeline_item:nth-child(2n) {
+    text-align: left;
+  }
+
+  .ag-timeline-card_box,
+  .ag-timeline_item:nth-child(2n) .ag-timeline-card_box {
+    padding: 0 0 20px;
+  }
+
+  .ag-timeline-card_meta-box {
+    display: none;
+  }
+
+  .ag-timeline-card_point-box,
+  .ag-timeline_item:nth-child(2n) .ag-timeline-card_point-box {
+    margin: 0 0 0 8px;
+  }
+
+  .ag-timeline-card_point {
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+  }
+
+  .ag-timeline-card_item,
+  .ag-timeline-card_text-box {
+    width: auto;
+    margin: -65px 0 0 75px;
+  }
+
+  .ag-timeline_item:nth-child(2n+1) .ag-timeline-card_item,
+  .ag-timeline_item:nth-child(2n) .ag-timeline-card_item,
+  .ag-timeline_item:nth-child(2n+1) .ag-timeline-card_text-box,
+  .ag-timeline_item:nth-child(2n) .ag-timeline-card_text-box {
+    transform: translateX(200%);
+  }
+
+  .ag-timeline_item:nth-child(2n+1) .ag-timeline-card_arrow {
+    right: auto;
+    left: 0;
+  }
+
+  .ag-timeline-card_arrow {
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Container {
+    width: 96%;
+  }
+
+  .ag-timeline_item {
+    margin: 0 0 30px;
+  }
+
+  .ag-timeline-card_item,
+  .ag-timeline-card_text-box {
+    width: 100%; /* Asegura que el contenedor tome todo el ancho en móviles */
+    margin: 0;
+  }
+
+  .ag-timeline-card_img {
+    max-height: 200px; /* Reduce la altura máxima para pantallas más pequeñas */
+  }
+
+  .ag-timeline-card_text {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .ag-timeline-card_title {
+    font-size: 20px;
+  }
+
+  .ag-timeline-card_date {
+    font-size: 16px;
+  }
+
+  .ag-timeline-card_point {
+    height: 36px;
+    line-height: 36px;
+    width: 36px;
+    font-size: 16px;
+  }
+
+  .ag-timeline_line {
+    left: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .FirstTitle {
+    font-size: 32px;
+  }
+
+  .secTitle {
+    font-size: 48px;
+  }
+
+  .ag-timeline-card_title {
+    font-size: 18px;
+  }
+
+  .ag-timeline-card_date {
+    font-size: 14px;
+  }
+
+  .ag-timeline-card_text {
+    font-size: 14px;
+  }
+}
+
     </style>
     <link rel="stylesheet" href="timeline.css">
 </head>
@@ -342,6 +673,868 @@
 
     </main>
 
+    <div class="Main">
+      
+        <section class="Main-section">
+          <div class="Container">
+            <div class="js-timeline ag-timeline">
+              <div class="js-timeline_line ag-timeline_line">
+                <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+              </div>
+              
+              <div class="ag-timeline_list">
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">01</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">January 2021</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/first-cubo.jpeg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">President Bukele inaugurates the first CUBO</p>
+                        <p class="ag-timeline-card_date">January 9th 2021</p>
+                        <p class="ag-timeline-card_text">President Nayib Bukele inaugurated the first CUBO in January 2021. CUBOs aim to create better spaces for development and opportunities for communities, especially for young people.</p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">September 2021</div>
+                    </div>
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">02</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/btc-day.jpeg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Bitcoin Law in El Salvador</p>
+                        <p class="ag-timeline-card_date">September 7th 2021</p>
+                        <p class="ag-timeline-card_text">On September 7, 2021, the Bitcoin Law came into effect in El Salvador, making it the first country in the world to adopt Bitcoin as legal tender. This marked a significant technological and economic advancement for the country, positioning it as a center for Bitcoin from that moment forward.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">03</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">January 2023</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/cubo-idea.jpg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">CUBO+</p>
+                        <p class="ag-timeline-card_date">January 2023</p>
+                        <p class="ag-timeline-card_text">The National Bitcoin Office partnered with Fulgur Ventures to create CUBO+, a program designed to train Bitcoin developers in El Salvador, maintaining President Nayib Bukele's vision for CUBOs.</p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+      
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">March 2023</div>
+                    </div>
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">04</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/flier-cubo.png" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">CUBO+ Devs Generation Call
+  
+                        </p>
+                        <p class="ag-timeline-card_date">March 2023</p>
+                        <p class="ag-timeline-card_text">The call was open for CUBO+ Devs Generation. The call began at Don Bosco University in Soyapango and later expanded to other universities, where many were able to learn about this incredible opportunity.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+      
+      
+                <!-- Left Nightwing Box -->
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">05</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">April 2023</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/cubo-introduction.jpeg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">CUBO+ Devs 2023 begins</p>
+                        <p class="ag-timeline-card_date">April 23rd 2023 </p>
+                        <p class="ag-timeline-card_text">56 students were selected for the preparation phase, online classes, and experts in the field as teachers, including Giacomo Zucco, Alekos Filini, Rikki, Ricardo Masutti, Walter, and Jan Burgers.</p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <!-- Name Code-->
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">May 2023</div>
+                    </div>
+              
+                    <!-- Number Code-->
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">06</div>
+                    </div>
+                  </div>
+            
+                  <!-- Image Code-->
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/saifedean.webp" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Saifedean Ammous Lecure</p>
+                        <p class="ag-timeline-card_date">May 22nd 2023</p>
+                        <p class="ag-timeline-card_text">A few weeks after starting the preparatory period, the students had an in-person masterclass by Saifedean Ammous, where he spoke about his book "The Bitcoin Standard."</p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <!-- Left Nightwing Box -->
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">07</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">June 2023</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/bootcamp.png" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Bootcamp selection process</p>
+                        <p class="ag-timeline-card_date">May - June 2023</p>
+                        <p class="ag-timeline-card_text">After weeks of classes and careful evaluation, 21 of the top students were selected to attend a 2-week in-person Bootcamp (1 week in San Salvador, 1 week in El Zonte). During this Bootcamp, students were provided with accommodation and meals.
+  
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <!-- Name Code-->
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">July 2023</div>
+                    </div>
+              
+                    <!-- Number Code-->
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">08</div>
+                    </div>
+                  </div>
+            
+                  <!-- Image Code-->
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/bootcamp-1.webp" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Bootcamp</p>
+                        <p class="ag-timeline-card_date">July 2nd - July 16th</p>
+                        <p class="ag-timeline-card_text">Los estudiantes seleccionados tuvieron la oportunidad de aprender mucho y convivir con grandes mentores y lideres en la industria de Bitcoin, entre ellos Adam Gibson, Ajelex, Rogzy, Asi0, Gabriel Comte, Peter Todd, Alekos Filini, Daniela Brozzoni. </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">09</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/final-bootcamp.webp" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Hackathon and Bootcamp finale</p>
+                        <p class="ag-timeline-card_date">July 12nd - July 16th 2023</p>
+                        <p class="ag-timeline-card_text">To conclude the bootcamp, students put into practice all the knowledge they acquired during the program. Six teams participated in a highly competitive hackathon, with each team proposing a solution. The students had 3 days to work on their projects, after which a panel of experts in the field chose the most innovative project.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+              
+                    <!-- Number Code-->
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">10</div>
+                    </div>
+                  </div>
+            
+                  <!-- Image Code-->
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/jimmysong.jfif" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Jimmy Song Bonus Course</p>
+                        <p class="ag-timeline-card_date">July 18th - July 22nd 2023</p>
+                        <p class="ag-timeline-card_text">After the two intensive weeks, the top 11 students had the opportunity to participate in Jimmy Song's advanced course "Programming Bitcoin". This was undoubtedly an extra resource that the top students could take advantage of, and they later shared this acquired knowledge with their fellow peers.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">11</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">August 2023</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/tiankii-meet.webp" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Beginning of Internships</p>
+                        <p class="ag-timeline-card_date">August 2023</p>
+                        <p class="ag-timeline-card_text">After the bootcamp, many companies began hiring the new CUBO+ students. The first technical Bitcoin course in El Salvador concluded, creating new opportunities for 21 young individuals and meeting the needs of businesses. The first student hired was Moisés, at the Salvadoran company Tiankii, specializing in Bitcoin.
+  
+  
+  
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <!-- Name Code-->
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">October 2023</div>
+                    </div>
+              
+                    <!-- Number Code-->
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">12</div>
+                    </div>
+                  </div>
+            
+                  <!-- Image Code-->
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/europe.jpeg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Trip to Europe</p>
+                        <p class="ag-timeline-card_date">October 5th 2023</p>
+                        <p class="ag-timeline-card_text">2 months after concluding CUBO+ Devs Generation 2023, the top 6 students, who demonstrated their Proof of Work during and after the course, had the opportunity to visit Tuscany and Lugano.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+  
+  
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">13</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/tuscany-lightning.jpg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Tuscany Lightning Summit 2023</p>
+                        <p class="ag-timeline-card_date">October 11th - October 13th 2023 </p>
+                        <p class="ag-timeline-card_text">The CUBO students had the opportunity to attend the Tuscany Lightning Summit 2023 in person, a two-day event filled with workshops, lectures, conferences, and networking sessions, focused on developers specialized in the Lightning Network.</p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">14</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/build-the-builders.jpg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Build the Builders 2023</p>
+                        <p class="ag-timeline-card_date">October 15th - October 18th 2023</p>
+                        <p class="ag-timeline-card_text">After the Lightning Summit, the students attended the Build the Builders 2023 conference, which focused on the development of the Bitcoin network.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">15</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/planb-forum.jpg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Lugano PlanB Forum 2023</p>
+                        <p class="ag-timeline-card_date">October 20th - October 21st 2023</p>
+                        <p class="ag-timeline-card_text">To conclude their training, the top students from CUBO had the opportunity to attend the PlanB Forum in Lugano, Switzerland. At this forum, the new PlanB Network initiative was presented.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">16</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/students-return.jpg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Return to El Salvador</p>
+                        <p class="ag-timeline-card_date">October 2023</p>
+                        <p class="ag-timeline-card_text">After nearly 3 weeks, the students of CUBO+ returned home, undoubtedly strengthened after a trip filled with learning, opportunities, and networking.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">17</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">November 2023</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/Adopting-Bitcoin-2023-large.webp" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Adopting Bitcoin</p>
+                        <p class="ag-timeline-card_date">November 7th - November 9th</p>
+                        <p class="ag-timeline-card_text">Four months after completing the bootcamp, the CUBO+ students returned to participate in the "Legends of Lightnings" hackathon. After 3 days of intense development, a team from CUBO+ claimed the first place, showcasing why CUBO+ is synonymous with excellence in teaching Bitcoin at a technical level.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+  
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">January 2024</div>
+                    </div>
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">18</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/meetupcubo.jpg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">First Meetup                      </p>
+                        <p class="ag-timeline-card_date">January 19th 2024</p>
+                        <p class="ag-timeline-card_text">At the beginning of 2024, CUBO+ decided to organize its first meetup, where some graduates and new prospective students attended to engage in conversations and enjoy a fruitful time of knowledge and learning.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">19</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">March 2024</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/cubo-website.png" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">CUBO+ website</p>
+                        <p class="ag-timeline-card_date">March 2024</p>
+                        <p class="ag-timeline-card_text">Nearly a year after the inception of the idea for CUBO+, CUBO+ launched its first website created by its own graduated students. Today, this website greatly helps more Salvadorans learn about the opportunities offered by CUBO+.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">20</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/econ-call.png" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Applications Open for CUBO+ ECON Generation </p>
+                        <p class="ag-timeline-card_date">March 2024</p>
+                        <p class="ag-timeline-card_text">CUBO+ has opened its applications for the new generation, this time focusing on university students from all fields. CUBO+ ECON Generation aims to include both technical and non-technical individuals, meaning programming knowledge is not a requirement to participate and learn.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">21</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">April 2024</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/luke-lecture.jpg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Luke Dashjr Lecture </p>
+                        <p class="ag-timeline-card_date">April 2nd 2024</p>
+                        <p class="ag-timeline-card_text">Before starting CUBO+ ECON Generation, students had the opportunity to attend a lecture by Luke Dashjr, one of the early developers of Bitcoin Core. During this lecture, students asked Luke questions about the Bitcoin network and expressed excitement for the beginning of ECON Generation.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">22</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/intro-cubo.png" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">CUBO+ Econ 2024 Begins
+                        </p>
+                        <p class="ag-timeline-card_date">April 2024</p>
+                        <p class="ag-timeline-card_text">After 3 weeks of applications, 81 students were selected for CUBO+ Econ Generation. They began receiving in-person classes, starting with 3 introductory masterclasses by Alejandro Muñoz from Accelerate, Ajelex and Ernesto Quezada from PlanB Network, and Darvin Otero from Tiankii.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">23</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">May 2024</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/econ-planb.png" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">PlanB Biz School</p>
+                        <p class="ag-timeline-card_date">May 2024</p>
+                        <p class="ag-timeline-card_text">The 81 students were awarded scholarships to attend classes at PlanB Biz School. The course typically costs $2000 USD for international students, but Salvadoran students from CUBO+ Econ Generation received a full scholarship, granting them access to the course at no cost.
+                          </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">24</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/pierre-lecture.jpeg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Pierre Rochard Lecture</p>
+                        <p class="ag-timeline-card_date">May 4th 2023</p>
+                        <p class="ag-timeline-card_text">CUBO+ had the opportunity to host the guest star lecture by Pierre Rochard from Riot Platforms. Students had the chance to learn about Mining Technology and Economics.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">25</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/ark-lecture.jpeg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">David Puell Lecture</p>
+                        <p class="ag-timeline-card_date">May 22nd 2024</p>
+                        <p class="ag-timeline-card_text">The next guest star lecture was delivered by David Puell, Research Associate at ARK Investment Management. He provided an insightful presentation based on ARK's Annual Research Report to the students of CUBO+.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">26</div>
+                    </div>
+                  </div>
+            
+                  <!-- Image Code-->
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/yorick-lecture.jpeg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Yorick De Mombynes</p>
+                        <p class="ag-timeline-card_date">May 25th 2024</p>
+                        <p class="ag-timeline-card_text">The third guest star lecture was delivered by Yorick de Mombynes, who has political experience in France. Yorick gave a masterclass to the students of CUBO+, focusing on Bitcoin as Open Money and Open Society principles.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">27</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/jack-lecture.jpg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Jack Mallers Lecture</p>
+                        <p class="ag-timeline-card_date">May 31st 2024</p>
+                        <p class="ag-timeline-card_text">
+                          La cuarta conferencia Guest Star fue presentada por el reconocido Jack Mallers, CEO de Strike, una billetera ampliamente utilizada a nivel global para Bitcoin. Jack habló sobre "Building on Bitcoin", explicando a los estudiantes cómo ha evolucionado el dinero desde tiempos pasados hasta hoy en día y cómo Bitcoin representa el futuro.</p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">June 2024</div>
+                    </div>
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">28</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/yan-lecture.jpeg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Yan Pritzker</p>
+                        <p class="ag-timeline-card_date">June 7th 2024</p>
+                        <p class="ag-timeline-card_text">The fifth Guest Star Lecture was given by Yan Pritzker, CTO of Swan Bitcoin. Yan delivered a highly informative session for CUBO+ Econ Generation students, discussing his book "Inventing Bitcoin". He covered topics ranging from the Gold Standard, inflation, the decline in the dollar's purchasing power, to how Bitcoin operates today.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">29</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/case-study.jpg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Case Studies Assignments</p>
+                        <p class="ag-timeline-card_date">June 15th 2024</p>
+                        <p class="ag-timeline-card_text">To demonstrate their acquired knowledge, all students had to work in groups on an assignment for two weeks, creating a case study provided by Salvadoran companies. Following this, each group presented their case study live and were evaluated by the same companies.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">30</div>
+                    </div>
+                  </div>
+            
+                  <!-- Image Code-->
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/larp.jpg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">LARP Session</p>
+                        <p class="ag-timeline-card_date">June 15th 2024</p>
+                        <p class="ag-timeline-card_text">After the students' presentations on their case studies, a Live Action Role-Play (LARP) session was organized. In this session, two graduate students from CUBO+ who had traveled to Mexico to learn from Lisa Neigut at Base58 shared their knowledge with the new generation of students. The game involved acting as nodes and simulating the operation of the Bitcoin network.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">31</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/eric-lecture.jpg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Eric Yakes</p>
+                        <p class="ag-timeline-card_date">June 20th 2024</p>
+                        <p class="ag-timeline-card_text">The latest lecture at the CUBO+ node was given by Eric Yakes. Eric spoke about his book The 7th Property, discussed Bitcoin, and the monetary revolution. It was undoubtedly a masterful class.
+                          .</p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+  
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">32</div>
+                    </div>
+                  </div>
+            
+                  <!-- Image Code-->
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/students-meet.jpeg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">Students Selected</p>
+                        <p class="ag-timeline-card_date">June 2024</p>
+                        <p class="ag-timeline-card_text">Three of the standout students during their case study presentation were selected to attend the PlanB Summer School in Lugano, Switzerland. Jorge, Maureen, and Isis had the opportunity to travel, learn, network, and of course, experience new things.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+      
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">33</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">July 2024</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/summer-school.jpg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">PlanB Summer School</p>
+                        <p class="ag-timeline-card_date">July 1st - July 6th 2024</p>
+                        <p class="ag-timeline-card_text">
+                          The three scholarship students from CUBO+ attended PlanB Summer School, an exclusive school for the top 21 students. During the school, the students met new classmates, had the opportunity to chat with their mentors, and, of course, enjoyed a week full of extensive learning.</p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">32</div>
+                    </div>
+                  </div>
+            
+                  <!-- Image Code-->
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="../img/timeline/school-conclusion.jpg" class="ag-timeline-card_img" />
+                      </div>
+                      <div class="ag-timeline-card_text-box">
+                        <p class="ag-timeline-card_title">School Conclution and graduation</p>
+                        <p class="ag-timeline-card_date">July 6th</p>
+                        <p class="ag-timeline-card_text">The 3 CUBO+ students, along with the 18 international students, graduated in a ceremony held at the Lugano City Hall. The ceremony was attended by the Ambassador of El Salvador to Switzerland Yessenia Lozano, the Director of PlanB Network Giacomo Zucco, and a representative of the Mayor of Lugano. During the ceremony, the students received their participation diplomas.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+  
+  
+  
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+  
+
 
     <footer class="bg-white dark:bg-gray-900">
         <div class="relative mx-auto px-6 md:max-w-full my-6 md:px-12 lg:max-w-6xl xl:px-0">
@@ -429,10 +1622,10 @@
         </div>
     </footer>
 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <script src="../js/lib/flowbite/dist/flowbite.min.js"></script>
     <script src="../js/component.js"></script>
-    <script src="../js/cookies.js"></script>
-    <script src="../js/cubo2023.js"></script>
+    <script src="../js/timeline.js"></script>
 </body>
 
 </html>
