@@ -235,10 +235,10 @@
     "waitlist": "Te gustaría mejorar tus habilidades técnicas? Suscríbete a la waitlist de CUBO+ Developer Edition, solo clickea <a class='text-orange-400' href='cuboDevs2024.html'>aquí</a>."
   },
   "cuboDevs2024": {
-    "header": "La siguiente generación de  <span class=\"opacity-80\">Desarrolladores.</span>",
-    "legend": "Se parte de la siguiente generación de desarrolladores en Bitcoin y Lightning Network aplicando a CUBO+ Devs Generation. Suscríbete a la nuestra lista de espera para recibir notificación cuando las aplicaciones para este ciclo abran.",
+    "header": "Aplica a una beca <br> CUBO+ DEVS GENERATION!",
+    "legend": "Se parte de la siguiente generación de desarrolladores en Bitcoin y Lightning Network aplicando a CUBO+ Devs Generation.",
     "form": "¡Suscribete ya!",
-    "questions": ["¿Eres un desarrollador apasionado por la técnología en busca de trabajo?", 
+    "questions": ["¿De qué trata CUBO+ Devs Generation?", 
                   "Definitivamente la edición para desarrolladores de CUBO+ es para ti! Donde encontrarás:"],
     "advantages": ["Un avanzado nivel de entendimiento técnico sobre Bitcoin.", 
                     "Beca completa con estadía y alimentación.",

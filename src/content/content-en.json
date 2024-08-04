@@ -231,8 +231,9 @@
     "waitlist": "Would you like to improve your technicals skills? Suscribe to the CUBO+ Developer Edition waitlist, just click <a class='text-orange-400' href='cuboDevs2024.html'>here</a>."
   },
   "cuboDevs2024": {
-    "header": "The next generation of <span class=\"opacity-80\">Developers.</span>",
-    "legend": "Be part of the next generation of Bitcoin and Lightning developers by applying to the CUBO+ Devs Generation. Sign up for our waitlist to receive notifications when applications for this cycle open.",
+    "header": "Apply for a scholarship <br> CUBO+ DEVS GENERATION!",
+    "legend": "Be part of the next generation of Bitcoin and Lightning Network developers by applying to CUBO+ Devs Generation.",
+    "title1": "What CUBO+ Devs Generation is about?",
     "form": "Subscribe to our waitlist now!",
     "questions": ["Are you a passionate developer for technology looking for opportunities?", 
                   "Definitely CUBO+ Developers edition is for you! Where you can find:"],

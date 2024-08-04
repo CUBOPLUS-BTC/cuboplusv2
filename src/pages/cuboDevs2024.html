@@ -13,13 +13,14 @@
         rel="stylesheet">
 
     <script type="module" crossorigin src="../assets/script.js"></script>
+    <link rel="stylesheet" href="../assets/css/styles.css">
     <link rel="stylesheet" href="../assets/style.css">
     <link rel="stylesheet" href="../output.css">
     <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
         })(window, document, "clarity", "script", "lc3stbh5wt");
     </script>
 
@@ -35,9 +36,9 @@
         }
     </script>
     <style>
-         .animate-pulse {    
-            animation: pulse 9s infinite; 
-             }
+        .animate-pulse {
+            animation: pulse 9s infinite;
+        }
 
         @keyframes pulse {
             0% {
@@ -49,10 +50,12 @@
                 transform: scale(1);
                 box-shadow: 0 0 0 15px rgba(229, 62, 62, 0);
             }
+
             50% {
                 transform: scale(1);
                 box-shadow: 0 0 0 15px rgba(229, 62, 62, 0);
             }
+
             60% {
                 transform: scale(1);
                 box-shadow: 0 0 0 15px rgba(229, 62, 62, 0);
@@ -290,118 +293,214 @@
         </nav>
     </header>
 
-
-
-
-    <section id="cookies-modal" class="hidden flex-col md:flex-row z-30 fixed max-w-2xl p-4 mx-4 md:mx-auto bottom-4 bg-white border border-gray-200 md:gap-x-4 md:left-12 md:bottom-16 dark:bg-gray-900 md:items-center dark:border-gray-700 rounded-2xl">
+    <section id="cookies-modal"
+        class="hidden flex-col md:flex-row z-30 fixed max-w-2xl p-4 mx-4 md:mx-auto bottom-4 bg-white border border-gray-200 md:gap-x-4 md:left-12 md:bottom-16 dark:bg-gray-900 md:items-center dark:border-gray-700 rounded-2xl">
         <div class="flex md:items-center gap-x-4">
             <span class="inline-flex p-2 text-blue-500 rounded-lg shrink-0 dark:bg-gray-800 bg-blue-100/80">
                 <svg class="w-8 md:w-8 md:h-8" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17.9803 8.5468C17.5123 8.69458 17.0197 8.7931 16.5271 8.7931C14.2118 8.76847 12.3399 6.89655 12.3153 4.58128C12.3153 4.13793 12.3892 3.69458 12.537 3.27586C11.9951 2.68473 11.6995 1.92118 11.6995 1.13301C11.6995 0.812808 11.7488 0.492611 11.8473 0.172414C11.2315 0.0738918 10.6158 0 10 0C4.48276 0 0 4.48276 0 10C0 15.5172 4.48276 20 10 20C15.5172 20 20 15.5172 20 10C20 9.77833 20 9.55665 19.9754 9.33498C19.2611 9.26108 18.5468 8.99015 17.9803 8.5468ZM4.58128 7.31527C6.30542 7.31527 6.30542 10.0246 4.58128 10.0246C2.85714 10.0246 2.61084 7.31527 4.58128 7.31527ZM6.05912 15.7635C4.08867 15.7635 4.08867 12.8079 6.05912 12.8079C8.02956 12.8079 8.02956 15.7635 6.05912 15.7635ZM9.01478 1.33005C10.7389 1.33005 10.7389 4.28571 9.01478 4.28571C7.29064 4.28571 7.04434 1.33005 9.01478 1.33005ZM10.2463 8.84237C11.7241 8.84237 11.7241 10.8128 10.2463 10.8128C8.76848 10.8128 9.01478 8.84237 10.2463 8.84237ZM11.9704 16.9458C10.4926 16.9458 10.4926 14.9754 11.9704 14.9754C13.4483 14.9754 13.202 16.9458 11.9704 16.9458ZM16.6503 13.1034C15.4187 13.1034 15.4187 11.133 16.6503 11.133C17.8818 11.133 17.8818 13.1034 16.6503 13.1034Z" fill="currentColor"/>
+                    <path
+                        d="M17.9803 8.5468C17.5123 8.69458 17.0197 8.7931 16.5271 8.7931C14.2118 8.76847 12.3399 6.89655 12.3153 4.58128C12.3153 4.13793 12.3892 3.69458 12.537 3.27586C11.9951 2.68473 11.6995 1.92118 11.6995 1.13301C11.6995 0.812808 11.7488 0.492611 11.8473 0.172414C11.2315 0.0738918 10.6158 0 10 0C4.48276 0 0 4.48276 0 10C0 15.5172 4.48276 20 10 20C15.5172 20 20 15.5172 20 10C20 9.77833 20 9.55665 19.9754 9.33498C19.2611 9.26108 18.5468 8.99015 17.9803 8.5468ZM4.58128 7.31527C6.30542 7.31527 6.30542 10.0246 4.58128 10.0246C2.85714 10.0246 2.61084 7.31527 4.58128 7.31527ZM6.05912 15.7635C4.08867 15.7635 4.08867 12.8079 6.05912 12.8079C8.02956 12.8079 8.02956 15.7635 6.05912 15.7635ZM9.01478 1.33005C10.7389 1.33005 10.7389 4.28571 9.01478 4.28571C7.29064 4.28571 7.04434 1.33005 9.01478 1.33005ZM10.2463 8.84237C11.7241 8.84237 11.7241 10.8128 10.2463 10.8128C8.76848 10.8128 9.01478 8.84237 10.2463 8.84237ZM11.9704 16.9458C10.4926 16.9458 10.4926 14.9754 11.9704 14.9754C13.4483 14.9754 13.202 16.9458 11.9704 16.9458ZM16.6503 13.1034C15.4187 13.1034 15.4187 11.133 16.6503 11.133C17.8818 11.133 17.8818 13.1034 16.6503 13.1034Z"
+                        fill="currentColor" />
                 </svg>
             </span>
-    
-            <p id="cookies-text" class="text-sm text-gray-600 dark:text-gray-300">We use cookies to ensure that we give you the best experience on our website. <a href="/src/pages/legal/cookies.html" class="text-blue-500 hover:underline">Cookies Policy</a>. </p>
+
+            <p id="cookies-text" class="text-sm text-gray-600 dark:text-gray-300">We use cookies to ensure that we give
+                you the best experience on our website. <a href="/src/pages/legal/cookies.html"
+                    class="text-blue-500 hover:underline">Cookies Policy</a>. </p>
         </div>
-        
+
         <div class="block md:flex align-middle md:items-center gap-x-4 shrink-0 mt-6 md:mt-0 lg:mt-0">
-            <button id="accept-cookies" class="text-xs w-1/2 md:w-auto font-medium bg-gray-800 rounded-lg hover:bg-gray-700 text-white px-4 py-2.5 duration-300 transition-colors focus:outline-none">
+            <button id="accept-cookies"
+                class="text-xs w-1/2 md:w-auto font-medium bg-gray-800 rounded-lg hover:bg-gray-700 text-white px-4 py-2.5 duration-300 transition-colors focus:outline-none">
                 Accept
             </button>
-            <button id="decline-cookies" class="text-xs w-1/2 md:w-auto font-medium bg-gray-800 rounded-lg hover:bg-gray-700 text-white px-4 py-2.5 duration-300 transition-colors focus:outline-none mt-3 md:mt-0">
+            <button id="decline-cookies"
+                class="text-xs w-1/2 md:w-auto font-medium bg-gray-800 rounded-lg hover:bg-gray-700 text-white px-4 py-2.5 duration-300 transition-colors focus:outline-none mt-3 md:mt-0">
                 Decline
             </button>
         </div>
     </section>
 
 
-
-
     <section class="py-32 pt-24 md:pt-24 lg:pt-32">
-        <div class="mx-auto md:max-w-4xl lg:max-w-5xl xl:max-w-6xl">
-            <div class="relative overflow-hidden w-full pt-[56.25%]">
-                <iframe src="https://drive.google.com/file/d/1B2zK24DtrtXi_QCe75cLKVw3tkLo7KH2/preview" class="absolute top-0 left-0 bottom-0 right-0 w-full h-full rounded" width="100%" height="600" allow="autoplay"></iframe>
+        <div class=" bg-white dark:bg-gray-900">
+            <div class="relative mx-auto px-6 md:max-w-full md:px-12 lg:max-w-6xl xl:px-0">
+                <div class="items-start justify-between md:flex">
+                    <div class="h-max py-16 md:w-6/12 xl:w-5/12">
+                        <div class="text-center md:text-left">
+                            <span id="title"
+                                class="text-2xl font-bold text-blue-900 dark:text-blue-300 md:w-max md:text-3xl xl:text-4xl">
+                                Aplica a una beca <br />
+                                <span id="title" class="text-md text-blue-900 dark:text-blue-300">CUBO+ DEVS
+                                    GENERATION!</span>
+                            </span>
+                            <p id="legend" class="mb-8 mt-6 text-gray-600 dark:text-gray-300 text-justify">
+                                Se parte de la siguiente generación de desarrolladores en Bitcoin y Lightning Network
+                                aplicando a CUBO+ Devs Generation.</p>
 
-            </div>
-            
-                <!-- <video id="videoElement" class="w-full h-auto max-w-full border border-gray-200 rounded-lg dark:border-gray-700"
-                    autoplay muted controls>
-                    <source src="../img/education_program_whatsapp.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video> -->
-        </div>
+                        </div>
+                        <div class="containerr mt-5 flex justify-center">
+                            <a target="_blank" href="https://share.hsforms.com/1xer9YmWiRY-KeOX-vOb8Nwqv3sp"
+                                class="button">
+                                <div class="button__content">
+                                    <span class="button__text">Apply Now</span>
+                                    <div class="button__reflection-1"></div>
+                                    <div class="button__reflection-2"></div>
+                                </div>
+                                <img src="../img/icons/atom.png" alt="" class="button__star-1">
+                                <img src="../img/icons/c-sharp.png" alt="" class="button__star-2">
+                                <img src="../img/icons/css-3.png" alt="" class="button__circle-1">
+                                <img src="../img/icons/github.png" alt="" class="button__circle-2">
+                                <img src="../img/icons/node-js.png" alt="" class="button__diamond">
+                                <img src="../img/icons/html.png" alt="" class="button__triangle">
+                                <div class="button__shadow"></div>
+                            </a>
+                        </div>
 
-        <div class="mx-auto pt-12 md:max-w-4xl lg:max-w-5xl xl:max-w-6xl">
-            <div class="relative z-10 text-center mx-4 md:mx-auto md:w-5/6 lg:w-full">
-                <h1 id="title"
-                    class="relative text-center text-4xl font-bold text-orange-500 dark:text-blue-300 sm:text-5xl md:text-6xl">
-                    The next generation of <span class="opacity-80">Developers.</span></h1>
-                    <div class="lg:w-4/6 mx-auto">
-                        <p id="legend" class="mt-6 text-gray-700 dark:text-gray-300">The best Bitcoin and Lightning bootcamp for developers looking for opportunities. Subscribe to our waitlist to be notified once the applications for this period are open.</p>        
+                    </div>
+
+                    <div class="md:w-[42%] lg:w-1/2">
+                        <img src="../img/unsorted/undraw_digital_currency_qpak.svg" alt="image" loading="lazy"
+                            width="1299" height="678" />
                     </div>
                 </div>
 
-            <div class="mt-12 mx-6 md:mx-auto max-w-4xl lg:max-w-5xl">
-                <div class="relative">
-                        <div class="relative">
-                            <h2 id="ask" class="text-2xl text-center font-bold text-gray-800 dark:text-white">Subscribe to our waitlist now!</h2>
-                            <div class="mt-8">
-                                <!--space for hubspot's script-->
-                                <script charset="utf-8" type="text/javascript"
-                                    src="//js.hsforms.net/forms/embed/v2.js"></script>
-                                <script>
-                                    hbspt.forms.create({
-                                        region: "na1",
-                                        portalId: "45121273",
-                                        formId: "b5f2e44a-776a-49cf-9c24-6fbab95943c5"
-                                    });
-                                </script>
-                            </div>
+            </div>
+    </section>
+
+
+    <section class="mt-4">
+        <div class="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
+            <div class="space-y-6 lg:flex lg:items-center lg:gap-6 lg:space-y-0">
+                <div class="sm:8/12 lg:w-6/12 p-2">
+
+                    <video class="w-full h-auto max-w-full border border-gray-200 rounded-lg dark:border-gray-700"
+                        autoplay loop muted controls>
+                        <source src="../img/ssstwitter.com_1709809954017.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                </div>
+                <div class="sm:4/12 lg:w-6/12 p-2">
+                    <div class="text mx-4">
+                        <h2 id="question1" class="my-4 font-bold text-3xl text-black dark:text-blue-300 sm:text-4xl ">
+                            What
+                            CUBO+
+                            Devs Generation is
+                            about?
+                        </h2>
+                        <p id="description1" class="text-gray-700 dark:text-white">
+                            CUBO+ Developers Generation will be focused on providing the necessary tools to build on the
+                            Bitcoin Protocol
+                            and Lightning Network infrastructure at a high technical level.<br>
+                        </p><br>
+
+
+                        <h2 id="title2" class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Who are we
+                            looking for?</h2>
+                        <ul class="max-w-lg space-y-1 text-gray-500 list-inside dark:text-gray-400">
+                            <li id="description2" class="flex items-center gap-2">
+                                <svg class="w-6 h-6 text-green-500 dark:text-green-400 flex-shrink-0"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+
+
+                                University students or graduates.
+                            </li>
+                            <li id="description3" class="flex items-center gap-2">
+                                <svg class="w-6 h-6 text-green-500 dark:text-green-400 flex-shrink-0"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                Students from technical careers with coding skills.
+                            </li>
+                            <li id="description4" class="flex items-center gap-2">
+                                <svg class="w-6 h-6 text-green-500 dark:text-green-400 flex-shrink-0"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                People willing to attend the entire duration of the course!
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="relative mt-24 mb-24">
+            <div class="mx-auto px-4 pt-12 sm:px-12 sm:pt-8 md:pt-12 lg:pt-4 xl:max-w-6xl xl:px-0">
+                <h2 id="title3" class=" text-xl font-bold text-gray-800 dark:text-white md:text-2xl">CUBO+ scholarship benefits
+                </h2>
+                <div
+                    class="relative -mx-4 mt-6 flex flex-col md:flex-row snap-x snap-mandatory justify-center md:justify-between gap-6 overflow-x-auto border-y border-gray-100 px-4 py-8 dark:border-gray-800 md:-mx-12 sm:px-12 lg:mx-0 lg:px-0">
+                    <div class="snap-center text-center sm:text-left">
+
+                        <div
+                            class="mx-auto mb-4 flex h-12 w-12 rounded-xl border border-primary/20 bg-blue-200 shadow-md shadow-primary/10 sm:mr-auto sm:ml-0" style="background-color: #dbeafe;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#2563eb"
+                                class="m-auto h-6 w-6 text-[#2563eb]">
+                                <path
+                                    d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
+                                <path
+                                    d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
+                                <path
+                                    d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
+                            </svg>
+
                         </div>
+                        <h2 id="title10"
+                            class="mx-auto w-max text-lg font-semibold text-gray-700 dark:text-white sm:ml-0 sm:w-auto">
+                            Classes by<br> world experts</h2>
+                        <p id="description5" class="mx-auto mt-4 w-max text-gray-500 sm:ml-0 sm:w-auto">Top-level experts <br>
+                            sharing their knowledge <br>with Salvadoran youth <br>and professionals.</p>
+                    </div>
+                    <div class="snap-center text-center sm:text-left mt-6 sm:mt-0">
+                        <div
+                            class="mx-auto mb-4 flex h-12 w-12 rounded-xl border border-[#047481] bg-white shadow-md shadow-purple-600/10 sm:mr-auto sm:ml-0" style="background-color: #d5f5f6;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#047481"
+                                class="m-auto h-6 w-6">
+                                <path class="text-primaryLight" fill-rule="evenodd"
+                                    d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z"
+                                    clip-rule="evenodd" />
+                                <path
+                                    d="M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z" />
+                            </svg>
+                        </div>
+                        <h2 id="title11"
+                            class="mx-auto w-max text-lg font-semibold text-gray-700 dark:text-white sm:ml-0 sm:w-auto">
+                            Internship opportunities</h2>
+                        <p id="description6" class="mx-auto mt-4 w-max text-gray-500 sm:ml-0 sm:w-auto">CUBO+ graduates will <br>
+                            have the chance to apply <br>for internships at top <br>Bitcoin companies worldwide!</p>
+                    </div>
+                    <div class="snap-center text-center sm:text-left mt-6 sm:mt-0">
+                        <div
+                            class="mx-auto mb-4 flex h-12 w-12 rounded-xl border border-[#7e3af2] bg-white shadow-md shadow-yellow-600/10  sm:mr-auto sm:ml-0" style="background-color: #edebfe;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#7e3af2"
+                                class="m-auto h-6 w-6">
+                                <path fill-rule="evenodd"
+                                    d="M2.25 6a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V6Zm3.97.97a.75.75 0 0 1 1.06 0l2.25 2.25a.75.75 0 0 1 0 1.06l-2.25 2.25a.75.75 0 0 1-1.06-1.06l1.72-1.72-1.72-1.72a.75.75 0 0 1 0-1.06Zm4.28 4.28a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-3Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+
+                        </div>
+                        <h2 id="title12"
+                            class="mx-auto w-max text-lg font-semibold text-gray-700 dark:text-white sm:ml-0 sm:w-auto">
+                            Programming Bootcamp</h2>
+                        <p id="description7" class="mx-auto mt-4 w-max text-gray-500 sm:ml-0 sm:w-auto">The best and most <br>
+                            committed students will <br>receive a full scholarship <br>to attend the in-person <br>bootcamp at the end of the year.
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="md:mx-auto container xl:max-w-6xl mb-36">
-        <div class="mx-6 grid lg:grid-cols-5 lg:gap-12">
-            <div class="lg:col-span-2">
-                <img src="../img/bootcamp/bootcamp-2.webp" alt="bootcamp-2" class="rounded-xl h-48 w-96 lg:w-full lg:h-96 object-cover">
-            </div>
-            <div class="lg:col-span-3 flex flex-col mt-2 text-gray-900 dark:text-white">
-                <p id="question1" class="font-bold text-3xl mb-6 text-indigo-600 dark:text-blue-300">Are you a passionate developer for technology looking for opportunities?</p>
-                <p id="question2" class="font-normal text-lg mb-6">Definitely CUBO+ Developers edition is for you! Where you can find:</p>
-                <ul class="space-y-1 text-gray-500 list-inside dark:text-gray-400 flex flex-col gap-6">
-                    <li class="flex items-center gap-2">
-                        <svg data-slot="icon" class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                            <path d="M11.25 4.533A9.707 9.707 0 0 0 6 3a9.735 9.735 0 0 0-3.25.555.75.75 0 0 0-.5.707v14.25a.75.75 0 0 0 1 .707A8.237 8.237 0 0 1 6 18.75c1.995 0 3.823.707 5.25 1.886V4.533ZM12.75 20.636A8.214 8.214 0 0 1 18 18.75c.966 0 1.89.166 2.75.47a.75.75 0 0 0 1-.708V4.262a.75.75 0 0 0-.5-.707A9.735 9.735 0 0 0 18 3a9.707 9.707 0 0 0-5.25 1.533v16.103Z"></path>
-                        </svg>
-                        <p id="advantages-1">An advance level of understanding in the technical stack of Bitcoin.</p>
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <svg data-slot="icon" class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                            <path d="M9.375 3a1.875 1.875 0 0 0 0 3.75h1.875v4.5H3.375A1.875 1.875 0 0 1 1.5 9.375v-.75c0-1.036.84-1.875 1.875-1.875h3.193A3.375 3.375 0 0 1 12 2.753a3.375 3.375 0 0 1 5.432 3.997h3.943c1.035 0 1.875.84 1.875 1.875v.75c0 1.036-.84 1.875-1.875 1.875H12.75v-4.5h1.875a1.875 1.875 0 1 0-1.875-1.875V6.75h-1.5V4.875C11.25 3.839 10.41 3 9.375 3ZM11.25 12.75H3v6.75a2.25 2.25 0 0 0 2.25 2.25h6v-9ZM12.75 12.75v9h6.75a2.25 2.25 0 0 0 2.25-2.25v-6.75h-9Z"></path>
-                          </svg>
-                        <p id="advantages-2">Full paid scholarship with accomodation and nutrition.</p>
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <svg data-slot="icon" class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                            <path clip-rule="evenodd" fill-rule="evenodd" d="M7.5 5.25a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0 1 12 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 0 1 7.5 5.455V5.25Zm7.5 0v.09a49.488 49.488 0 0 0-6 0v-.09a1.5 1.5 0 0 1 1.5-1.5h3a1.5 1.5 0 0 1 1.5 1.5Zm-3 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"></path>
-                            <path d="M3 18.4v-2.796a4.3 4.3 0 0 0 .713.31A26.226 26.226 0 0 0 12 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 0 1-6.477-.427C4.047 21.128 3 19.852 3 18.4Z"></path>
-                        </svg>
-                        <p id="advantages-3">A guaranteed internship with a company ally of CUBO+.</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
 
-    <section class="md:mx-auto container xl:max-w-6xl mb-36 text-gray-900 dark:text-white text-center">
-        <div class="mx-6">
-            <p id="call" class="text-3xl font-bold mb-2">Call to action</p>
-            <p id="action" class="text-xl font-medium">Ever since a requirement for CUBO+ Developers edition is to know the basics of Bitcoin we encourage you to apply for the economics edition.</p>
-        </div>
-    </section>
 
     <footer class="bg-white dark:bg-gray-900">
         <div class="relative mx-auto px-6 md:max-w-full my-6 md:px-12 lg:max-w-6xl xl:px-0">
