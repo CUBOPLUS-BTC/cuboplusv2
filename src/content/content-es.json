@@ -198,7 +198,6 @@
       "Identifica la primera vez que Clarity vio a este usuario en cualquier sitio usando Clarity."],
     "tableEssenExp": ["6 meses", "Sesión, eliminada después de cerrar el navegador", "30 minutos", "1 año"],
     "tableEssenTyp": ["Funcional", "Analítica"]
-  
   },
   "cookiesmodal": ["Utilizamos cookies para mejorar tu experiencia y la recopilación de datos. <a href=\"/pages/legal/cookies.html\" class=\"text-blue-500 hover:underline\">Política de cookies</a>. ", "Aceptar", "Rechazar"],
 
@@ -210,6 +209,9 @@
       "¿Sobre qué trata CUBO+ Econ Generation?", "¿Quién puede aplicar?", "Como estudiante de CUBO+ tendrás acceso a", "Estructura del curso",
       "Clases en línea", "Clases presenciales", "Conferencias de líderes en la industria", "¿El curso tiene costo?", "¿Cómo puedo recibir una beca para la escuela de verano Plan B de Lugano (en Suiza)?",
       "Profesores de todas<br>parte del mundo.", "Oportunidades de pasantías", "Viajes a Suiza"
+    ],
+    "buttons": [
+      "Las aplicaciones están cerradas"
     ],
     "descriptions":[
       "CUBO+ Econ Generation está hecho para ofrecer educación en Bitcoin, profundizando en los aspectos económicos y filosóficos de Bitcoin. Apuntamos a demostrar el impacto de Bitcoin en la sociedad y subrayar su importancia en un mundo acosado por un sistema financiero inestable.",
@@ -237,6 +239,28 @@
   "cuboDevs2024": {
     "header": "Aplica a una beca <br> CUBO+ DEVS GENERATION!",
     "legend": "Se parte de la siguiente generación de desarrolladores en Bitcoin y Lightning Network aplicando a CUBO+ Devs Generation.",
+    "titles": [
+      "¿De qué trata CUBO+ Devs Generation?",
+      "¿A quien estamos buscando?",
+      "Beneficios de la beca CUBO+",
+      "Clases impartidas <br>por expertos mundiales",
+      "Oportunidades <br>de pasantías",
+      "Campamento de <br>programación"
+    ],
+    "buttons": [
+      "Aplica Ahora"
+    ],
+    "descriptions": [
+      "La edición de desarrolladores de CUBO+ se centrará en proporcionar las herramientas necesarias para poder desarrollar sobre el protocolo Bitcoin y la infraestructura de Lightning Network a un alto nivel técnico.",
+      "Expertos de primer nivel <br>compartiendo sus conocimientos <br>con jóvenes profesionales salvadoreños.",
+      "Los graduados de CUBO+ <br>tendrán la oportunidad <br>de aplicar para pasantías <br>en las mejores empresas <br>de Bitcoin del mundo.",
+      "Los estudiantes más comprometidos <br>y sobresalientes recibirán una beca <br>completa para asistir al campamento <br>de programación presencial al final del año."
+    ],
+    "features": [
+      "Estudiantes universitarios o graduados.",
+      "Estudiantes de carreras técnicas con habilidades de programación.",
+      "¡Personas dispuestas a asistir durante todo el curso!"
+    ],
     "form": "¡Suscribete ya!",
     "questions": ["¿De qué trata CUBO+ Devs Generation?", 
                   "Definitivamente la edición para desarrolladores de CUBO+ es para ti! Donde encontrarás:"],
