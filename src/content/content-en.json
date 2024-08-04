@@ -1,9 +1,9 @@
 {
-  "version": "1.9",
+  "version": "2.0",
   "secret": "en-cuboplus",
   "layout": {
     "navbar": ["About us", 
-    "Program 2023", 
+    "Program", 
     "Contributors", 
     "<svg class='relative w-5 h-5 mr-2 text-white dark:text-gray-900 lg:text-blue-600 lg:dark:text-white' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M13 10V3L4 14h7v7l9-11h-7z'></path></svg>Apply Now"],
     "footer": [
@@ -207,6 +207,9 @@
       "Online Classes", "Face to face classes", "Conferences from industry leaders", "Does the course have a cost?", "How can I recieve a scholarship to Lugano´s PlanB summer School(In Switzerland)?",
       "Teachers from all<br> over the world", "Internship opportunities", "Trip to Switzerland"
     ],
+    "buttons": [
+      "Applications are closed"
+    ],
     "descriptions":[
       "CUBO+ Econ generation is crafted to offer comprehensive education on Bitcoin, delving into its economic and philosophical aspects. It aims to highlight Bitcoin's impact on society and underscore its significance in a world beset by an unstable financial system.",
       "<svg class='w-6 h-6 text-green-500 dark:text-green-400 flex-shrink-0' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'><path fill-rule='evenodd' d='M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z' clip-rule='evenodd'/></svg>University students or graduates.",
@@ -231,8 +234,30 @@
     "waitlist": "Would you like to improve your technicals skills? Suscribe to the CUBO+ Developer Edition waitlist, just click <a class='text-orange-400' href='cuboDevs2024.html'>here</a>."
   },
   "cuboDevs2024": {
-    "header": "The next generation of <span class=\"opacity-80\">Developers.</span>",
-    "legend": "Be part of the next generation of Bitcoin and Lightning developers by applying to the CUBO+ Devs Generation. Sign up for our waitlist to receive notifications when applications for this cycle open.",
+    "header": "Apply for a scholarship <br> CUBO+ DEVS GENERATION!",
+    "legend": "Be part of the next generation of Bitcoin and Lightning Network developers by applying to CUBO+ Devs Generation.",
+    "titles": [
+      "What CUBO+ Devs Generation is about?",
+      "Who are we looking for?",
+      "CUBO+ scholarship benefits",
+      "Classes by <br>world experts",
+      "Internship opportunities",
+      "Programming Bootcamp"
+    ],
+    "buttons": [
+      "Apply Now"
+    ],
+    "descriptions":[
+      "CUBO+ Developers Generation will be focused on providing the necessary tools to build on the Bitcoin Protocol and Lightning Network infrastructure at a high technical level.",
+      "Top-level experts <br>sharing their knowledge <br>with Salvadoran youth <br>and professionals.",
+      "CUBO+ graduates will <br>have the chance to apply <br>for internships at top <br>Bitcoin companies worldwide!</p>",
+      "The best and most <br>committed students will <br>receive a full scholarship <br>to attend the in-person <br>bootcamp at the end of the year."
+    ],
+    "features": [
+      "University students or graduates.",
+      "Students from technical careers with coding skills.",
+      "People willing to attend the entire duration of the course!"
+    ],
     "form": "Subscribe to our waitlist now!",
     "questions": ["Are you a passionate developer for technology looking for opportunities?", 
                   "Definitely CUBO+ Developers edition is for you! Where you can find:"],

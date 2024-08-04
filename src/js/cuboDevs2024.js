@@ -1,6 +1,20 @@
 const setElements = (content) => {
     document.getElementById("title").innerHTML = content.header;
     document.getElementById("legend").innerHTML = content.legend;
+    document.getElementById("title1").innerHTML = content.titles[0];
+    document.getElementById("title2").innerHTML = content.titles[1];
+    document.getElementById("title3").innerHTML = content.titles[2];
+    document.getElementById("title4").innerHTML = content.titles[3];
+    document.getElementById("title5").innerHTML = content.titles[4];
+    document.getElementById("title6").innerHTML = content.titles[5];
+    document.getElementById("btn1").innerHTML = content.buttons[0];
+    document.getElementById("description1").innerHTML = content.descriptions[0];
+    document.getElementById("description2").innerHTML = content.descriptions[1];
+    document.getElementById("description3").innerHTML = content.descriptions[2];
+    document.getElementById("description4").innerHTML = content.descriptions[3];
+    document.getElementById("feature1").innerHTML = content.features[0];
+    document.getElementById("feature2").innerHTML = content.features[1];
+    document.getElementById("feature3").innerHTML = content.features[2];
     document.getElementById("ask").innerHTML = content.form;
     document.getElementById("question1").innerHTML = content.questions[0];
     document.getElementById("question2").innerHTML = content.questions[1];

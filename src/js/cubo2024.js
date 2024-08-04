@@ -14,6 +14,7 @@ const setElements = (content) => {
     document.getElementById("title10").innerHTML = content.titles[9];
     document.getElementById("title11").innerHTML = content.titles[10];
     document.getElementById("title12").innerHTML = content.titles[11];
+    document.getElementById("btn1").innerHTML = content.buttons[0];
     document.getElementById("description1").innerHTML = content.descriptions[0];
     document.getElementById("description2").innerHTML = content.descriptions[1];
     document.getElementById("description3").innerHTML = content.descriptions[2];

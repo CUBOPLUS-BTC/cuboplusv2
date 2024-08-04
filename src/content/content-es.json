@@ -1,9 +1,9 @@
 {
-  "version": "1.9",
+  "version": "2.0",
   "secret": "es-cuboplus",
   "layout": {
     "navbar": ["Sobre nosotros", 
-    "Pograma 2023", 
+    "Pograma", 
     "Colaboradores", 
     "<svg class='relative w-5 h-5 mr-2 text-white dark:text-gray-900 lg:text-blue-600 lg:dark:text-white' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M13 10V3L4 14h7v7l9-11h-7z'></path></svg>Aplica Ya"],
     "footer": [
@@ -198,7 +198,6 @@
       "Identifica la primera vez que Clarity vio a este usuario en cualquier sitio usando Clarity."],
     "tableEssenExp": ["6 meses", "Sesión, eliminada después de cerrar el navegador", "30 minutos", "1 año"],
     "tableEssenTyp": ["Funcional", "Analítica"]
-  
   },
   "cookiesmodal": ["Utilizamos cookies para mejorar tu experiencia y la recopilación de datos. <a href=\"/pages/legal/cookies.html\" class=\"text-blue-500 hover:underline\">Política de cookies</a>. ", "Aceptar", "Rechazar"],
 
@@ -210,6 +209,9 @@
       "¿Sobre qué trata CUBO+ Econ Generation?", "¿Quién puede aplicar?", "Como estudiante de CUBO+ tendrás acceso a", "Estructura del curso",
       "Clases en línea", "Clases presenciales", "Conferencias de líderes en la industria", "¿El curso tiene costo?", "¿Cómo puedo recibir una beca para la escuela de verano Plan B de Lugano (en Suiza)?",
       "Profesores de todas<br>parte del mundo.", "Oportunidades de pasantías", "Viajes a Suiza"
+    ],
+    "buttons": [
+      "Las aplicaciones están cerradas"
     ],
     "descriptions":[
       "CUBO+ Econ Generation está hecho para ofrecer educación en Bitcoin, profundizando en los aspectos económicos y filosóficos de Bitcoin. Apuntamos a demostrar el impacto de Bitcoin en la sociedad y subrayar su importancia en un mundo acosado por un sistema financiero inestable.",
@@ -235,10 +237,32 @@
     "waitlist": "Te gustaría mejorar tus habilidades técnicas? Suscríbete a la waitlist de CUBO+ Developer Edition, solo clickea <a class='text-orange-400' href='cuboDevs2024.html'>aquí</a>."
   },
   "cuboDevs2024": {
-    "header": "La siguiente generación de  <span class=\"opacity-80\">Desarrolladores.</span>",
-    "legend": "Se parte de la siguiente generación de desarrolladores en Bitcoin y Lightning Network aplicando a CUBO+ Devs Generation. Suscríbete a la nuestra lista de espera para recibir notificación cuando las aplicaciones para este ciclo abran.",
+    "header": "Aplica a una beca <br> CUBO+ DEVS GENERATION!",
+    "legend": "Se parte de la siguiente generación de desarrolladores en Bitcoin y Lightning Network aplicando a CUBO+ Devs Generation.",
+    "titles": [
+      "¿De qué trata CUBO+ Devs Generation?",
+      "¿A quien estamos buscando?",
+      "Beneficios de la beca CUBO+",
+      "Clases impartidas <br>por expertos mundiales",
+      "Oportunidades <br>de pasantías",
+      "Campamento de <br>programación"
+    ],
+    "buttons": [
+      "Aplica Ahora"
+    ],
+    "descriptions": [
+      "La edición de desarrolladores de CUBO+ se centrará en proporcionar las herramientas necesarias para poder desarrollar sobre el protocolo Bitcoin y la infraestructura de Lightning Network a un alto nivel técnico.",
+      "Expertos de primer nivel <br>compartiendo sus <br>conocimientos con jóvenes <br>profesionales salvadoreños.",
+      "Los graduados de CUBO+ <br>tendrán la oportunidad <br>de aplicar para pasantías <br>en las mejores empresas <br>de Bitcoin del mundo.",
+      "Los estudiantes más comprometidos <br>y sobresalientes recibirán una beca <br>completa para asistir al campamento <br>de programación presencial al final del año."
+    ],
+    "features": [
+      "Estudiantes universitarios o graduados.",
+      "Estudiantes de carreras técnicas con habilidades de programación.",
+      "¡Personas dispuestas a asistir durante todo el curso!"
+    ],
     "form": "¡Suscribete ya!",
-    "questions": ["¿Eres un desarrollador apasionado por la técnología en busca de trabajo?", 
+    "questions": ["¿De qué trata CUBO+ Devs Generation?", 
                   "Definitivamente la edición para desarrolladores de CUBO+ es para ti! Donde encontrarás:"],
     "advantages": ["Un avanzado nivel de entendimiento técnico sobre Bitcoin.", 
                     "Beca completa con estadía y alimentación.",
