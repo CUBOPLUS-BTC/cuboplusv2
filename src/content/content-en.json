@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "secret": "en-cuboplus",
   "layout": {
     "navbar": ["About us", 
@@ -236,6 +236,7 @@
   "cuboDevs2024": {
     "header": "Apply for a scholarship <br> CUBO+ DEVS GENERATION!",
     "legend": "Be part of the next generation of Bitcoin and Lightning Network developers by applying to CUBO+ Devs Generation.",
+    "moments": "Click on any of our highlights!",
     "titles": [
       "What CUBO+ Devs Generation is about?",
       "Who are we looking for?",
