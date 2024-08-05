@@ -49,10 +49,8 @@ a {
 
 .button__content {
   position: relative;
-  background: var(--gradient-color);
   padding: 1.25rem 3rem;
   border-radius: 4rem;
-  border: 2px solid var(--black-color);
   color: var(--black-color);
   display: flex;
   align-items: center;
@@ -168,10 +166,8 @@ a {
   position: absolute;
   left: 0;
   top: 0;
-  background: var(--gradient-color);
   padding: 1.25rem 3rem;
   border-radius: 3rem;
-  border: 2px solid var(--black-color);
   z-index: -1;
   transition: transform .3s;
 }
