@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "secret": "es-cuboplus",
   "layout": {
     "navbar": ["Sobre nosotros", 
@@ -239,6 +239,7 @@
   "cuboDevs2024": {
     "header": "Aplica a una beca <br> CUBO+ DEVS GENERATION!",
     "legend": "Se parte de la siguiente generación de desarrolladores en Bitcoin y Lightning Network aplicando a CUBO+ Devs Generation.",
+    "moments": "¡Haz clic en cualquiera de nuestros momentos destacados!",
     "titles": [
       "¿De qué trata CUBO+ Devs Generation?",
       "¿A quien estamos buscando?",

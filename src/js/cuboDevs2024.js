@@ -1,6 +1,7 @@
 const setElements = (content) => {
     document.getElementById("title").innerHTML = content.header;
     document.getElementById("legend").innerHTML = content.legend;
+    document.getElementById("moments").innerHTML = content.moments;
     document.getElementById("title1").innerHTML = content.titles[0];
     document.getElementById("title2").innerHTML = content.titles[1];
     document.getElementById("title3").innerHTML = content.titles[2];

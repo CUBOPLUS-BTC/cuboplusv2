@@ -1,6 +1,6 @@
 var esButton = document.getElementsByClassName("es-button");
 var enButton = document.getElementsByClassName("en-button");
-const contentVersion = "2.0";
+const contentVersion = "2.1";
 const URL = "https://api-cuboplus.onrender.com/"
 
 function setElementsNavbarAndFooter(content) {
