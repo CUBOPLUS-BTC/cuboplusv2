@@ -218,7 +218,7 @@
       "World class educators <br> sharing their knowledge<br> with youth and <br>professionals in El Salvador.",
       "Top-performing CUBO+ <br> students will have the<br> opportunity to apply for<br> internships at the best<br> Bitcoin companies in the world!",
       "The best and most<br> dedicated students will<br> receive a full scholarship<br> to <a class='text-orange-400' target=\"_blank\" href='https://planb.lugano.ch/summer-school/'>PlanB's Summer School</a><br> in Lugano Switzerland",
-      "The course will last 3 months starting next March 16 and will consist of virtual and in-person classes, as well as events from industry leaders. For more details about the events, check our <a href='agenda.html' class='text-orange-400'>agenda.",
+      "The course will last 3 months and will consist of virtual and in-person classes, as well as events from industry leaders. For more details about the events, check our <a href='agenda.html' class='text-orange-400'>agenda.",
       "Classes will be held virtually, two classes per week each lasting two hours where you can interact with your teachers.",
       "To reinforce the knowledge you acquire during the week there will be in-person classes where you can put your knowledge into practice through challenges.",
       "We will have the presence of world leaders in the Bitcoin industry giving conferences that you cannot miss.",
@@ -234,29 +234,37 @@
     "waitlist": "Would you like to improve your technicals skills? Suscribe to the CUBO+ Developer Edition waitlist, just click <a class='text-orange-400' href='cuboDevs2024.html'>here</a>."
   },
   "cuboDevs2024": {
-    "header": "Apply for a scholarship <br> CUBO+ DEVS GENERATION!",
-    "legend": "Be part of the next generation of Bitcoin and Lightning Network developers by applying to CUBO+ Devs Generation.",
+    "header": "Join the waitlist for <br> CUBO+ ECONS GENERATION!",
+    "legend": "Be part of the next generation of experts in the economics of Bitcoin and Lightning Network. Join our waitlist, and we’ll notify you when applications for CUBO+ Econs Generation open",
     "moments": "Click on any of our highlights!",
     "titles": [
-      "What CUBO+ Devs Generation is about?",
+      "What CUBO+ Econs Generation is about?",
       "Who are we looking for?",
       "CUBO+ scholarship benefits",
       "Classes by <br>world experts",
-      "Internship opportunities",
-      "Programming Bootcamp"
+      "Career opportunities",
+      "Summer school",
+      "Course structure",
+      "Online Classes", 
+      "Face to face classes",
+      "Conferences from industry leaders"
     ],
     "buttons": [
-      "Apply Now"
+      "Join the waitlist"
     ],
     "descriptions":[
-      "CUBO+ Developers Generation will be focused on providing the necessary tools to build on the Bitcoin Protocol and Lightning Network infrastructure at a high technical level.",
-      "Top-level experts <br>sharing their knowledge <br>with Salvadoran youth <br>and professionals.",
-      "CUBO+ graduates will <br>have the chance to apply <br>for internships at top <br>Bitcoin companies worldwide!</p>",
-      "The best and most <br>committed students will <br>receive a full scholarship <br>to attend the in-person <br>bootcamp at the end of the year."
+      "CUBO+ Econs Generation will be focused on providing the necessary tools to understand and analyze the economic implications of the Bitcoin Protocol and the Lightning Network infrastructure, fostering a deep comprehension of their impact on global and local economies.",
+      "World-class experts will <br>sharetheir knowledge <br>about Bitcoin and economics<br> with young Salvadoran<br> professionals.",
+      "CUBO+ graduates will be better<br>prepared to access new career<br>opportunities in Bitcoin companies.",
+      "The most committed and<br> outstanding students <br>will receive a<br>full scholarship to<br> attend an in-person<br> summer school in<br> the middle of the year.",
+      "The course will last 3 months starting next March 16 and will consist of virtual and in-person classes, as well as events from industry leaders. For more details about the events, check our <a href='agenda.html' class='text-orange-400'>agenda.",
+      "Classes will be held virtually, two classes per week each lasting two hours where you can interact with your teachers.",
+      "To reinforce the knowledge you acquire during the week there will be in-person classes where you can put your knowledge into practice through challenges.",
+      "We will have the presence of world leaders in the Bitcoin industry giving conferences that you cannot miss."
     ],
     "features": [
       "University students or graduates.",
-      "Students from technical careers with coding skills.",
+      "Students or professionals from technical and non-technical fields (accountants, marketing professionals, communicators, designers, etc.).",
       "People willing to attend the entire duration of the course!"
     ],
     "form": "Subscribe to our waitlist now!",

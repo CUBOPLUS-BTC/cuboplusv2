@@ -237,33 +237,41 @@
     "waitlist": "Te gustaría mejorar tus habilidades técnicas? Suscríbete a la waitlist de CUBO+ Developer Edition, solo clickea <a class='text-orange-400' href='cuboDevs2024.html'>aquí</a>."
   },
   "cuboDevs2024": {
-    "header": "Aplica a una beca <br> CUBO+ DEVS GENERATION!",
-    "legend": "Se parte de la siguiente generación de desarrolladores en Bitcoin y Lightning Network aplicando a CUBO+ Devs Generation.",
+    "header": "Únete a la lista de espera para <br> CUBO+ ECONS GENERATION!",
+    "legend": "Sé parte de la siguiente generación de expertos en economía de Bitcoin y Lightning Network. Únete a nuestra lista de espera y nosotros te notificaremos cuando las inscripciones para CUBO+ Econs Generation estén abiertas",
     "moments": "¡Haz clic en cualquiera de nuestros momentos destacados!",
     "titles": [
       "¿De qué trata CUBO+ Devs Generation?",
       "¿A quien estamos buscando?",
       "Beneficios de la beca CUBO+",
       "Clases impartidas <br>por expertos mundiales",
-      "Oportunidades <br>de pasantías",
-      "Campamento de <br>programación"
+      "Acceso a nuevas<br> oportunidades laborales",
+      "Escuela de Verano",
+      "Estructura del curso",
+      "Clases en línea",
+      "Clases presenciales",
+      "Conferencias de líderes en la industria"
     ],
     "buttons": [
-      "Aplica Ahora"
+      "Únete a la lista de espera"
     ],
-    "descriptions": [
-      "La edición de desarrolladores de CUBO+ se centrará en proporcionar las herramientas necesarias para poder desarrollar sobre el protocolo Bitcoin y la infraestructura de Lightning Network a un alto nivel técnico.",
-      "Expertos de primer nivel <br>compartiendo sus <br>conocimientos con jóvenes <br>profesionales salvadoreños.",
-      "Los graduados de CUBO+ <br>tendrán la oportunidad <br>de aplicar para pasantías <br>en las mejores empresas <br>de Bitcoin del mundo.",
-      "Los estudiantes más comprometidos <br>y sobresalientes recibirán una beca <br>completa para asistir al campamento <br>de programación presencial al final del año."
+    "descriptions":[
+      "CUBO+ Econs Generation se centrará en proporcionar las herramientas necesarias para comprender y analizar las implicaciones económicas del Protocolo de Bitcoin y la infraestructura de Lightning Network, fomentando una comprensión profunda de su impacto en las economías globales y locales.",
+      "Expertos de clase mundial <br>compartirán sus conocimientos <br>sobre Bitcoin y economía<br> con jóvenes profesionales<br> salvadoreños.",
+      "Los estudiantes graduados de CUBO+<br> estarán mejor preparados<br> para acceder a nuevas oportunidades<br> laborales en empresas de Bitcoin.",
+      "Los estudiantes más comprometidos<br> y destacados recibirán una<br>beca completa para<br> asistir a una escuela<br> de verano presencial<br> a mediados de año.",
+      "El curso tendrá una duración aproximada de 3 meses y constará de clases virtuales y presenciales, así como conferencias de líderes de la industria. Para más detalles sobre los eventos, consulta nuestra <a href='agenda.html' class='text-orange-400'>agenda.",
+      "Las clases se realizarán de manera virtual, dos clases por semana de dos horas cada una donde podrás interactuar con tus profesores.",
+      "Para reforzar los conocimientos que adquiere durante la semana habrá clases presenciales donde podrás poner tus conocimientos en práctica a través de desafíos.",
+      "Contaremos con la presencia de líderes mundiales en la industria de Bitcoin dando conferencias que no te puedes perder."
     ],
     "features": [
       "Estudiantes universitarios o graduados.",
-      "Estudiantes de carreras técnicas con habilidades de programación.",
+      "Estudiantes de todas las carreras técnicas y no técnicas.",
       "¡Personas dispuestas a asistir durante todo el curso!"
     ],
     "form": "¡Suscribete ya!",
-    "questions": ["¿De qué trata CUBO+ Devs Generation?", 
+    "questions": ["¿De qué trata CUBO+ Econs Generation?", 
                   "Definitivamente la edición para desarrolladores de CUBO+ es para ti! Donde encontrarás:"],
     "advantages": ["Un avanzado nivel de entendimiento técnico sobre Bitcoin.", 
                     "Beca completa con estadía y alimentación.",
