@@ -233,48 +233,48 @@
     "alliances": "THANKS TO THE SUPPORT OF OUR ALLIANCES",
     "waitlist": "Would you like to improve your technicals skills? Suscribe to the CUBO+ Developer Edition waitlist, just click <a class='text-orange-400' href='cuboDevs2024.html'>here</a>."
   },
-  "cuboDevs2024": {
-    "header": "Join the waitlist for <br> CUBO+ ECONS GENERATION!",
-    "legend": "Be part of the next generation of experts in the economics of Bitcoin and Lightning Network. Join our waitlist, and we’ll notify you when applications for CUBO+ Econs Generation open",
-    "moments": "Click on any of our highlights!",
-    "titles": [
-      "What CUBO+ Econs Generation is about?",
-      "Who are we looking for?",
-      "CUBO+ scholarship benefits",
-      "Classes by <br>world experts",
-      "Career opportunities",
-      "Summer school",
-      "Course structure",
-      "Online Classes", 
-      "Face to face classes",
-      "Conferences from industry leaders"
-    ],
-    "buttons": [
-      "Join the waitlist"
-    ],
-    "descriptions":[
-      "CUBO+ Econs Generation will be focused on providing the necessary tools to understand and analyze the economic implications of the Bitcoin Protocol and the Lightning Network infrastructure, fostering a deep comprehension of their impact on global and local economies.",
-      "World-class experts will <br>sharetheir knowledge <br>about Bitcoin and economics<br> with young Salvadoran<br> professionals.",
-      "CUBO+ graduates will be better<br>prepared to access new career<br>opportunities in Bitcoin companies.",
-      "The most committed and<br> outstanding students <br>will receive a<br>full scholarship to<br> attend an in-person<br> summer school in<br> the middle of the year.",
-      "The course will last 3 months starting next March 16 and will consist of virtual and in-person classes, as well as events from industry leaders. For more details about the events, check our <a href='agenda.html' class='text-orange-400'>agenda.",
-      "Classes will be held virtually, two classes per week each lasting two hours where you can interact with your teachers.",
-      "To reinforce the knowledge you acquire during the week there will be in-person classes where you can put your knowledge into practice through challenges.",
-      "We will have the presence of world leaders in the Bitcoin industry giving conferences that you cannot miss."
-    ],
-    "features": [
-      "University students or graduates.",
-      "Students or professionals from technical and non-technical fields (accountants, marketing professionals, communicators, designers, etc.).",
-      "People willing to attend the entire duration of the course!"
-    ],
-    "form": "Subscribe to our waitlist now!",
-    "questions": ["Are you a passionate developer for technology looking for opportunities?", 
-                  "Definitely CUBO+ Developers edition is for you! Where you can find:"],
-    "advantages": ["An advance level of understanding in the technical stack of Bitcoin.", 
-                    "Full paid scholarship with accomodation and nutrition.",
-                    "A guaranteed internship with a company ally of CUBO+."],
-    "callAction": ["Call to action", "Ever since a requirement for CUBO+ Developers edition is to know the basics of Bitcoin we encourage you to apply to CUBO+ devs generation or Econ generation."]
-  },
+"cuboDevs2024": {
+  "header": "¡Aplica ahora a <br> CUBO+ Devs GENERATION!",
+  "legend": "Sé parte de la próxima generación de desarrolladores construyendo sobre Bitcoin y Lightning Network. Aplica ahora y da el primer paso para unirte a CUBO+ Devs Generation 2025.",
+  "moments": "¡Haz clic en cualquiera de nuestros momentos destacados!",
+  "titles": [
+    "¿De qué se trata CUBO+ Devs Generation?",
+    "¿A quién estamos buscando?",
+    "Beneficios de la beca CUBO+",
+    "Clases con <br>expertos mundiales",
+    "Oportunidades profesionales",
+    "Escuela de invierno",
+    "Estructura del curso",
+    "Clases en línea", 
+    "Clases presenciales",
+    "Conferencias de líderes de la industria"
+  ],
+  "buttons": [
+    "Aplica ahora"
+  ],
+  "descriptions": [
+    "CUBO+ Devs Generation 2025 se enfocará en proporcionar las bases técnicas para entender, desarrollar y contribuir al Protocolo de Bitcoin y Lightning Network, empoderando a una nueva generación de desarrolladores salvadoreños de Bitcoin.",
+    "Ingenieros y educadores de clase mundial<br>compartirán su experiencia<br>en desarrollo Bitcoin<br>con jóvenes profesionales<br>salvadoreños.",
+    "Los graduados de CUBO+ estarán mejor<br>preparados para acceder a nuevas<br>oportunidades laborales en empresas enfocadas en Bitcoin y Lightning.",
+    "Los estudiantes más comprometidos y<br>destacados recibirán una beca<br>completa para asistir a una<br>escuela técnica intensiva<br>presencial (bootcamp)<br>en San Salvador.",
+    "El programa tendrá una duración de 3 meses comenzando el próximo 16 de marzo e incluirá sesiones técnicas tanto virtuales como presenciales, así como eventos liderados por referentes de la industria. Para más detalles sobre los eventos, consulta nuestra <a href='agenda.html' class='text-orange-400'>agenda</a>.",
+    "Las clases se impartirán de forma virtual, dos veces por semana, cada sesión durará dos horas, permitiéndote interactuar directamente con instructores y mentores.",
+    "Para reforzar las habilidades técnicas adquiridas durante la semana, se llevarán a cabo sesiones presenciales donde aplicarás tu conocimiento a través de desafíos prácticos de programación y proyectos colaborativos.",
+    "Contaremos con profesionales destacados del ecosistema global de Bitcoin que ofrecerán conferencias y talleres que no querrás perderte."
+  ],
+  "features": [
+    "Estudiantes universitarios o graduados.",
+    "Estudiantes o profesionales con formación técnica (desarrolladores de software, ingenieros en sistemas, estudiantes de informática) o aquellos con experiencia demostrable en programación.",
+    "¡Personas dispuestas a asistir durante toda la duración del curso!"
+  ],
+  "form": "¡Suscríbete a nuestra lista de espera ahora!",
+  "questions": ["¿Eres un desarrollador apasionado por la tecnología en busca de oportunidades?", 
+                "¡Definitivamente la edición CUBO+ Developers es para ti! Donde puedes encontrar:"],
+  "advantages": ["Un nivel avanzado de comprensión en la pila técnica de Bitcoin.", 
+                 "Beca completa con alojamiento y alimentación.",
+                 "Oportunidad de pasantía con una empresa aliada de CUBO+."],
+  "callAction": ["Llamado a la acción", "Dado que un requisito para la edición CUBO+ Developers es conocer lo básico de Bitcoin, te animamos a aplicar a CUBO+ devs generation o Econ generation."]
+},
   "faq": {
     "title": "FRQUENTLY ASKED QUESTIONS",
     "description": "Further key questions you might have about cubo+, if there's any important question left you can reach us out through the contact form on index or via email to info@cuboplus.academy",
@@ -284,7 +284,6 @@
       "What is CUBO+ about?",
       "Does CUBO+ have any cost (participation fee)?",
       "Do I need a degree or prior experience to apply?",
-      "Do I need to be 18 years old to apply?",
       "How can I advance to the on-site phase of CUBO+?",
       "Do I need to know how to code to apply?"
     ],
@@ -294,7 +293,6 @@
       "CUBO+ is an educational program that aim to bring high-level contents related to Bitcoin and Lightnign Network from word class personalities.",
       "CUBO+ has a cost of $2000, although Salvadoreans are selected based on their commitment with the course and performance to get a scholarship full paid.",
       "CUBO+ participants are selected based on a process of interviews and tests, there's no specific academic background required other than being able to read and write.",
-      "No, there's no age requirements, just right motivation and commitment to become a Bitcoin expert.",
       "On-site bootcamps offer scholarship to the most motivated students within the program. If you want to advance to the on-site bootcamp, you must participate in classes, activities, showcase talent, and above all, demostrate interest and motivation.",
       "CUBO+ 2024 will reach a variety of academic fields, each specific one with its own particularities and dynamics. Technical/coding segment of CUBO+ will also be an option for participating."
     ]
