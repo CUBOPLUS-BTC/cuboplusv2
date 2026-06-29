@@ -7,11 +7,54 @@ function setElementsNavbarAndFooter(content) {
   document.getElementById("navbar-about-button").innerHTML = content.navbar[0];
   document.getElementById("navbar-program-button").innerHTML = content.navbar[1];
   document.getElementById("navbar-sponsors-button").innerHTML = content.navbar[2];
-  document.getElementById("navbar-apply-button").innerHTML = content.navbar[3];
+  const applyButtonText = document.querySelector("#navbar-apply-button span");
+  applyButtonText.textContent = "Apply Now";
+  setActiveNavbarItem();
   document.getElementById("footer-contact").innerHTML = content.footer[0];
   document.getElementById("footer-follow").innerHTML = content.footer[1];
   document.getElementById("footer-links").innerHTML = content.footer[2];
   document.getElementById("footer-copyright").innerHTML = `© ${new Date().getFullYear()} CUBO+. `  + content.footer[3];
+}
+
+function setActiveNavbarItem() {
+  const activeColor = "#fb923c";
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const navLinks = document.querySelectorAll("#navlinks a[id^='navbar-']");
+  const findNavbarLink = (label) => {
+    return [...document.querySelectorAll("#navlinks a")].find((link) => {
+      return link.textContent.trim().toLowerCase() === label;
+    });
+  };
+
+  navLinks.forEach((link) => {
+    link.classList.remove("text-orange-400", "dark:text-primaryLight");
+    link.style.color = "";
+    link.querySelectorAll("svg").forEach((icon) => {
+      icon.style.color = "";
+    });
+  });
+
+  let activeLink = null;
+
+  if (currentPage === "index.html" || currentPage === "") {
+    activeLink = document.getElementById("navbar-about-button");
+  } else if (currentPage === "agenda.html" || currentPage === "eventinfo.html") {
+    activeLink = findNavbarLink("agenda");
+  } else if (currentPage === "contributors.html") {
+    activeLink = document.getElementById("navbar-sponsors-button");
+  } else if (currentPage === "cuboDevs2025.html") {
+    activeLink = document.getElementById("navbar-apply-button");
+  } else if (currentPage === "cubo2023.html" || currentPage === "cubo2024.html" || currentPage === "timeline.html") {
+    activeLink = document.getElementById("navbar-program-button");
+  }
+
+  if (!activeLink) return;
+
+  activeLink.classList.add("text-orange-400", "dark:text-primaryLight");
+  activeLink.style.color = activeColor;
+  activeLink.querySelectorAll("svg").forEach((icon) => {
+    icon.style.color = activeColor;
+  });
 }
 
 //function to set the language in page

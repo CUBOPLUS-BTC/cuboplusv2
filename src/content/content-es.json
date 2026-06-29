@@ -2,9 +2,9 @@
   "version": "2.1",
   "secret": "es-cuboplus",
   "layout": {
-    "navbar": ["Sobre nosotros", 
-    "Pograma", 
-    "Colaboradores", 
+    "navbar": ["Sobre nosotros",
+    "Pograma",
+    "Colaboradores",
     "<svg class='relative w-5 h-5 mr-2 text-white dark:text-gray-900 lg:text-blue-600 lg:dark:text-white' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M13 10V3L4 14h7v7l9-11h-7z'></path></svg>Aplica Ya"],
     "footer": [
       "CONTÁCTANOS",
@@ -53,7 +53,7 @@
       "Crea tu propia startup",
       "Tus conocimientos y la red de contactos con otros profesionales te brindarán el espacio necesario para desplegar tu creatividad y fundar tu propio negocio."
     ],
-    
+
     "students": ["Una generación que inspira", "En CUBO+ capacitamos a agentes de cambio, fomentando una cultura donde la innovación y la colaboración abren el camino, creando un legado para una generación que inspira e impulsa la transformación."],
     "mission": [
       "Quiénes somos",
@@ -237,11 +237,11 @@
     "waitlist": "Te gustaría mejorar tus habilidades técnicas? Suscríbete a la waitlist de CUBO+ Developer Edition, solo clickea <a class='text-orange-400' href='cuboDevs2024.html'>aquí</a>."
   },
   "cuboDevs2024": {
-    "header": "Únete a la lista de espera para <br> CUBO+ ECONS GENERATION!",
-    "legend": "Sé parte de la siguiente generación de expertos en economía de Bitcoin y Lightning Network. Únete a nuestra lista de espera y nosotros te notificaremos cuando las inscripciones para CUBO+ Econs Generation estén abiertas",
+    "header": "Únete a la lista de espera para <br> CUBO+ NEW GENERATION!",
+    "legend": "Sé parte de la siguiente generación de expertos en economía de Bitcoin y Lightning Network. Únete a nuestra lista de espera y nosotros te notificaremos cuando las inscripciones para CUBO+ New Generation estén abiertas",
     "moments": "¡Haz clic en cualquiera de nuestros momentos destacados!",
     "titles": [
-      "¿De qué trata CUBO+ Devs Generation?",
+      "¿De qué trata CUBO+ New Generation?",
       "¿A quien estamos buscando?",
       "Beneficios de la beca CUBO+",
       "Clases impartidas <br>por expertos mundiales",
@@ -256,7 +256,7 @@
       "Únete a la lista de espera"
     ],
     "descriptions":[
-      "CUBO+ Econs Generation se centrará en proporcionar las herramientas necesarias para comprender y analizar las implicaciones económicas del Protocolo de Bitcoin y la infraestructura de Lightning Network, fomentando una comprensión profunda de su impacto en las economías globales y locales.",
+      "CUBO+ New Generation se centrará en proporcionar las herramientas necesarias para comprender y analizar las implicaciones económicas del Protocolo de Bitcoin y la infraestructura de Lightning Network, fomentando una comprensión profunda de su impacto en las economías globales y locales.",
       "Expertos de clase mundial <br>compartirán sus conocimientos <br>sobre Bitcoin y economía<br> con jóvenes profesionales<br> salvadoreños.",
       "Los estudiantes graduados de CUBO+<br> estarán mejor preparados<br> para acceder a nuevas oportunidades<br> laborales en empresas de Bitcoin.",
       "Los estudiantes más comprometidos<br> y destacados recibirán una<br>beca completa para<br> asistir a una escuela<br> de verano presencial<br> a mediados de año.",
@@ -271,9 +271,9 @@
       "¡Personas dispuestas a asistir durante todo el curso!"
     ],
     "form": "¡Suscribete ya!",
-    "questions": ["¿De qué trata CUBO+ Econs Generation?", 
+    "questions": ["¿De qué trata CUBO+ New Generation?",
                   "Definitivamente la edición para desarrolladores de CUBO+ es para ti! Donde encontrarás:"],
-    "advantages": ["Un avanzado nivel de entendimiento técnico sobre Bitcoin.", 
+    "advantages": ["Un avanzado nivel de entendimiento técnico sobre Bitcoin.",
                     "Beca completa con estadía y alimentación.",
                     "Pasantía asegurada con una de las compañías aliadas de CUBO+."],
     "callAction": ["Llamado a la acción", "Debido a que un requisito para participar la edición de desarrolladores de CUBO+ es saber las bases de Bitcoin, te animamos a aplicar para la parte económica de Bitcoin o a la parte para desarrolladores."]
@@ -306,5 +306,5 @@
   "403": ["403 Acceso Restringido", "Lo siento! No tienes acceso a este recurso."],
   "maintenance": ["Bajo Construcción", "Estamos construyendo algo increíble! Esta página esta siendo construída, vuelve más tarde!"],
   "agenda": ["Conoce las fechas importantes", "Organización", "Evento", "Clase", "Meetup"],
-  "eventinfo": ["Información del evento", "Fecha del evento:", "Hora del evento:", "Ubicación del evento:", "Tipo de evento:"] 
+  "eventinfo": ["Información del evento", "Fecha del evento:", "Hora del evento:", "Ubicación del evento:", "Tipo de evento:"]
 }

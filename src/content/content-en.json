@@ -234,11 +234,11 @@
     "waitlist": "Would you like to improve your technicals skills? Suscribe to the CUBO+ Developer Edition waitlist, just click <a class='text-orange-400' href='cuboDevs2024.html'>here</a>."
   },
 "cuboDevs2024": {
-  "header": "¡Aplica ahora a <br> CUBO+ Devs GENERATION!",
-  "legend": "Sé parte de la próxima generación de desarrolladores construyendo sobre Bitcoin y Lightning Network. Aplica ahora y da el primer paso para unirte a CUBO+ Devs Generation 2025.",
+  "header": "¡Aplica ahora a <br> CUBO+ NEW GENERATION!",
+  "legend": "Sé parte de la próxima generación de desarrolladores construyendo sobre Bitcoin y Lightning Network. Aplica ahora y da el primer paso para unirte a CUBO+ New Generation 2025.",
   "moments": "¡Haz clic en cualquiera de nuestros momentos destacados!",
   "titles": [
-    "¿De qué se trata CUBO+ Devs Generation?",
+    "¿De qué se trata CUBO+ New Generation?",
     "¿A quién estamos buscando?",
     "Beneficios de la beca CUBO+",
     "Clases con <br>expertos mundiales",
@@ -253,7 +253,7 @@
     "Aplica ahora"
   ],
   "descriptions": [
-    "CUBO+ Devs Generation 2025 se enfocará en proporcionar las bases técnicas para entender, desarrollar y contribuir al Protocolo de Bitcoin y Lightning Network, empoderando a una nueva generación de desarrolladores salvadoreños de Bitcoin.",
+    "CUBO+ New Generation 2025 se enfocará en proporcionar las bases técnicas para entender, desarrollar y contribuir al Protocolo de Bitcoin y Lightning Network, empoderando a una nueva generación de desarrolladores salvadoreños de Bitcoin.",
     "Ingenieros y educadores de clase mundial<br>compartirán su experiencia<br>en desarrollo Bitcoin<br>con jóvenes profesionales<br>salvadoreños.",
     "Los graduados de CUBO+ estarán mejor<br>preparados para acceder a nuevas<br>oportunidades laborales en empresas enfocadas en Bitcoin y Lightning.",
     "Los estudiantes más comprometidos y<br>destacados recibirán una beca<br>completa para asistir a una<br>escuela técnica intensiva<br>presencial (bootcamp)<br>en San Salvador.",
@@ -273,7 +273,7 @@
   "advantages": ["Un nivel avanzado de comprensión en la pila técnica de Bitcoin.", 
                  "Beca completa con alojamiento y alimentación.",
                  "Oportunidad de pasantía con una empresa aliada de CUBO+."],
-  "callAction": ["Llamado a la acción", "Dado que un requisito para la edición CUBO+ Developers es conocer lo básico de Bitcoin, te animamos a aplicar a CUBO+ devs generation o Econ generation."]
+  "callAction": ["Llamado a la acción", "Dado que un requisito para la edición CUBO+ Developers es conocer lo básico de Bitcoin, te animamos a aplicar a CUBO+ New Generation."]
 },
   "faq": {
     "title": "FRQUENTLY ASKED QUESTIONS",
